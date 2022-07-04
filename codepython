@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>codepython</title>
+    </head>
+
+    <body>
+    <p> #LA PREMIERE PARTIE DU CODE 
+
+
+from matplotlib.pyplot import *
+import numpy as np
+theta = np.linspace(-16*np.pi, 16*np.pi, 800)
+z = np.linspace(-2, 2, 800)
+r =z*z+ 1
+x = r * np.sin(theta)  
+y = r * np.cos(theta)  
+
+
+
+
+#LA DEUXIEME PARTIE DU CODE 
+
+
+gca(projection='3d').plot(x,y,z,label='fonction trigonometrique ', c ='red')
+</p>
+    </body>
+</html>
